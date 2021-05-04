@@ -1,0 +1,25 @@
+{{define "main"}}
+<div class="jumbotron">
+    <h1 class="text-center">{{.Title}}</h1>
+</div>
+<div class="container-fluid">
+    [<a href="/edit/{{.Title}}">edit</a>]
+    <div>{{printf "%s" .Body}}</div>
+</div>
+{{end}}
+
+{{define "navbar"}}
+<nav class="navbar navbar-inverse">
+    <ul class="nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">{{.Title}}<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/test/test">Test</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/test/edit">Edit</a>
+        </li>
+    </ul>
+</nav>
+{{end}}
