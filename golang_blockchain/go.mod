@@ -1,4 +1,4 @@
-module hello
+module github.com/benjaminbang987/crypto/tree/main/golang_blockchain
 
 go 1.16
 
