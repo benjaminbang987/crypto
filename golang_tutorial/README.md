@@ -11,4 +11,5 @@
     * Redirecting the traffic after save to the saved text file using `http.Redirect`
 * [Golang Tutorial Part 4](https://www.youtube.com/watch?v=JaPEuGmG6yQ&list=PLJbE2Yu2zumCe9cO3SIyragJ8pLmVv0z9&index=4)
     * Using initialzr.com to get bootstrap components for a webpage - CSS
+    * Using different templates for each page.
      
